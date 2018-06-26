@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Employee.h"
 #include <string>
 
