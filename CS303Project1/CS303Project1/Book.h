@@ -9,11 +9,14 @@
 class Book
 {
 public:
-	Book();
-
+	Book() : archived(false) {}
+	Book(std::string t) : title(t), archived(false) {}
 	~Book();
 
 	void queueEmployee(Employee e);
+	std::string getTitle() { return title; }
+	bool isArchived() { return archived; }
+	void archiveBook() { archived = true; }
 
 
 private:
