@@ -147,11 +147,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="Date.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Book.cpp" />
     <ClCompile Include="CS303Project1.cpp" />
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="stdafx.cpp">
